@@ -1,8 +1,11 @@
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   background-color: var(--white-color);
   color: var(--navy-blue-color);
+}
+
+ul {
+  list-style-type: none;
 }
 
 :root {
@@ -12,7 +15,7 @@ body {
   --slate-color: #434455;
   --white-color: #ffffff;
   --cloud-color: #f4f4fd;
-  --secondary-headings-size: 36px;
+  --second-heading-size: 36px;
 }
 
 .logo {
@@ -20,12 +23,28 @@ body {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.2;
-  letter-spacing: 0.5px;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .part-logo {
   color: var(--iris-color);
+}
+
+.page-navigation {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.page-link {
+  color: var(--navy-blue-color);
+  text-decoration: none;
+}
+
+.page-link:hover,
+.page-link:focus {
+  color: var(--ocean-color);
 }
