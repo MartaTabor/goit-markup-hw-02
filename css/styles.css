@@ -104,3 +104,23 @@ body {
 .order-button:focus {
   background-color: var(--ocean-color);
 }
+
+.services-section {
+  color: var(--slate-color);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.services-section h3 {
+  color: var(--navy-blue-color);
+  font-size: var(--third-heading-size);
+  font-weight: var(--third-heading-weight);
+}
+
+.section-two h2 {
+  font-size: var(--second-heading-size);
+  font-weight: var(--second-heading-weight);
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
