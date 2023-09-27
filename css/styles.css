@@ -4,7 +4,7 @@ body {
   color: var(--navy-blue-color);
 }
 
-ul {
+.list {
   list-style-type: none;
 }
 
@@ -16,6 +16,9 @@ ul {
   --white-color: #ffffff;
   --cloud-color: #f4f4fd;
   --second-heading-size: 36px;
+  --second-heading-weight: 700;
+  --third-heading-size: 20px;
+  --third-heading-weight: 500;
 }
 
 .logo {
@@ -27,6 +30,10 @@ ul {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.footer-logo {
+  color: var(--cloud-color);
 }
 
 .part-logo {
@@ -60,4 +67,14 @@ ul {
 .address-link:hover,
 .address-link:focus {
   color: var(--ocean-color);
+}
+
+.footer-section {
+  background-color: var(--navy-blue-color);
+}
+
+.footer-note {
+  color: var(--cloud-color);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
