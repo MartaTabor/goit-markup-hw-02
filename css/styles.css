@@ -48,3 +48,16 @@ ul {
 .page-link:focus {
   color: var(--ocean-color);
 }
+
+.address-link {
+  color: var(--slate-color);
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean-color);
+}
