@@ -145,3 +145,35 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
+
+.filter-button {
+  background-color: var(--cloud-color);
+  border-color: var(--cloud-color);
+  color: var(--iris-color);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--ocean-color);
+  border-color: var(--ocean-color);
+  color: var(--white-color);
+}
+
+.portfolio-section {
+  line-height: 1.5;
+}
+
+.portfolio-section h3 {
+  font-size: var(--third-heading-size);
+  font-weight: var(--third-heading-weight);
+  letter-spacing: 0.4px;
+}
+
+.portfolio-section p {
+  color: var(--slate-color);
+  letter-spacing: 0.32px;
+}
