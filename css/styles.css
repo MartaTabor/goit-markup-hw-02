@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white-color);
-  color: var(--navy-blue-color);
+  color: var(--slate-color);
 }
 
 .list {
@@ -106,7 +106,6 @@ body {
 }
 
 .services-section {
-  color: var(--slate-color);
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -118,6 +117,7 @@ body {
 }
 
 .section-two h2 {
+  color: var(--navy-blue-color);
   font-size: var(--second-heading-size);
   font-weight: var(--second-heading-weight);
   line-height: 1.1;
@@ -126,6 +126,7 @@ body {
 }
 
 .team-section h2 {
+  color: var(--navy-blue-color);
   font-size: var(--second-heading-size);
   font-weight: var(--second-heading-weight);
   line-height: 1.1;
@@ -134,6 +135,7 @@ body {
 }
 
 .team-section h3 {
+  color: var(--navy-blue-color);
   font-size: var(--third-heading-size);
   font-weight: var(--third-heading-weight);
   line-height: 1.2;
@@ -141,8 +143,7 @@ body {
 }
 
 .team-section p {
-  color: var(--slate-color);
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -168,12 +169,12 @@ body {
 }
 
 .portfolio-section h3 {
+  color: var(--navy-blue-color);
   font-size: var(--third-heading-size);
   font-weight: var(--third-heading-weight);
   letter-spacing: 0.4px;
 }
 
 .portfolio-section p {
-  color: var(--slate-color);
   letter-spacing: 0.32px;
 }
