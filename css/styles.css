@@ -174,7 +174,7 @@ body {
   color: var(--navy-blue-color);
   font-weight: var(--third-heading-weight);
   font-size: var(--third-heading-size);
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
