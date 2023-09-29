@@ -152,12 +152,14 @@ body {
 }
 
 .filter-button {
+  font-family: "Roboto", sans-serif;
   background-color: var(--cloud-color);
   border-color: var(--cloud-color);
   color: var(--iris-color);
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
@@ -168,17 +170,17 @@ body {
   color: var(--white-color);
 }
 
-.portfolio-section {
-  line-height: 1.5;
-}
-
-.portfolio-section h3 {
+.portfolio-header {
   color: var(--navy-blue-color);
-  font-size: var(--third-heading-size);
   font-weight: var(--third-heading-weight);
-  letter-spacing: 0.4px;
+  font-size: var(--third-heading-size);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.portfolio-section p {
-  letter-spacing: 0.32px;
+.portfolio-paragraph {
+  color: var(--slate-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
